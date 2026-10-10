@@ -1,0 +1,1 @@
+Favicon di public/favicon.ico dan src/app/favicon.ico masih placeholder bawaan. Ganti dengan logo Pinjam Dulu sebelum rilis.

@@ -1,0 +1,34 @@
+# Sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+
+# Dependensi
+node_modules/
+
+# Build dan cache
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Environment (jangan commit rahasia; contoh .env.example boleh)
+.env
+.env.*
+!.env.example
+
+# Log
+*.log
+npm-debug.log*
+
+# Berkas unggahan dan sementara
+uploads/
+tmp/
+temp/

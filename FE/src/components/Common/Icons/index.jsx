@@ -1,0 +1,11 @@
+export { default as HomeIcon } from './HomeIcon.jsx';
+export { default as InventoryIcon } from './InventoryIcon.jsx';
+export { default as HandoverIcon } from './HandoverIcon.jsx';
+export { default as ReturnIcon } from './ReturnIcon.jsx';
+export { default as UserPlusIcon } from './UserPlusIcon.jsx';
+export { default as DocumentIcon } from './DocumentIcon.jsx';
+export { default as UsersIcon } from './UsersIcon.jsx';
+export { default as LogoutIcon } from './LogoutIcon.jsx';
+export { default as ChevronIcon } from './ChevronIcon.jsx';
+export { default as ToggleSidebarIcon } from './ToggleSidebarIcon.jsx';
+export { default as MenuIcon } from './MenuIcon.jsx';

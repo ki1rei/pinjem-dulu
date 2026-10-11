@@ -104,3 +104,27 @@ Di PowerShell yang memblokir `npm.ps1`, gunakan `npm.cmd` atau `cmd /c npm ...`.
 
 \- BE: belum dimulai. Bentuk data dan endpoint mengacu pada kontrak API di atas.
 
+## 8. Alur kerja harian
+
+Pola yang disarankan:
+
+```
+feature/xxx  →  development  →  production
+```
+
+- **Mulai fitur baru:**
+    
+    ```
+    git checkout developmentgit pullgit checkout -b feature/task-5e-kuota
+    ```
+    
+- **Selesai:**
+    
+    ```
+    git add -Agit commit -m "feat(FE): verifikasi kuota dan penanda hari"git push -u origin feature/task-5e-kuota
+    ```
+    
+    Lalu buka PR ke `development` di GitHub dan merge.
+- **Rilis:** buka PR dari `development` ke `production`, lalu merge setelah test, lint, dan build lolos.
+
+Tips untuk agent: sebelum menjalankan task, selalu commit dulu (titik aman). Tambahkan di AGENTS.md bahwa agent tidak boleh `push`, `checkout`, atau `merge` ke `production`. Cukup commit lokal di branch fitur.
